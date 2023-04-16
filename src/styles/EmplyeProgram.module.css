@@ -1,0 +1,16 @@
+.powerfullitemlist {
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.tickIcons {
+    color: #C10230 !important;
+    font-size: 25px;
+    margin-right: 5px;
+
+}
+
+.itemsLink {
+    transform: translateX(-15px);
+}
