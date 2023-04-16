@@ -1,46 +1,74 @@
-.headerWrp{
-    background: #f6f6f6!important;
+.headerWrp {
+    background: #f6f6f6 !important;
     width: 100%;
     height: fit-content;
-  
+
 }
-.navberWrp{
-    background: transparent!important;
-    padding: 0px!important;
+
+.navberWrp {
+    background: transparent !important;
+    padding: 0px !important;
     display: flex;
     align-items: center;
 }
-.logostyles{
-    width: 200px;
-    height: 100px;
-    padding: 0!important;
+
+.logostyles {
+    width: 180px;
+    height: 80px;
+    padding: 0 !important;
 }
 
 
-.basicnavbarnav{
+.basicnavbarnav {
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
 }
 
-.navlink{
+.topHeader {
+    background: #C10230;
+    color: #fff;
+
+}
+
+.topberIcons {
+    font-size: 20px;
+}
+
+.topheaderWrp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0 !important;
+}
+
+.navlink {
     padding: 0 9px;
     text-decoration: none;
+    padding-top: 8px;
+    color: #C10230 !important;
+    font-weight: bold;
 
 }
-.selete{
-    width:fit-content;
-    background: transparent;
+
+.selete {
+    width: fit-content;
+    background: #C10230;
+    color: #fff !important;
+    padding: 8px;
+    border-radius: 5px;
+
 }
 
 
 @media (max-width:990px) {
-    .basicnavbarnav{
-        justify-content:flex-start;
-        padding-left: 20px!important;
+    .basicnavbarnav {
+        justify-content: flex-start;
+        padding-left: 20px !important;
         padding-bottom: 20px;
-    
+
     }
-    .navlink{
+
+    .navlink {
         padding: 10px 0;
     }
 }

@@ -1,0 +1,8 @@
+.bannerWrp {
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.276), rgba(0, 0, 0, 0.276)), url(../../public/webinar-about-main-bg.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
