@@ -1,0 +1,46 @@
+.headerWrp{
+    background: #f6f6f6!important;
+    width: 100%;
+    height: fit-content;
+  
+}
+.navberWrp{
+    background: transparent!important;
+    padding: 0px!important;
+    display: flex;
+    align-items: center;
+}
+.logostyles{
+    width: 200px;
+    height: 100px;
+    padding: 0!important;
+}
+
+
+.basicnavbarnav{
+    display: flex;
+    justify-content:flex-end;
+}
+
+.navlink{
+    padding: 0 9px;
+    text-decoration: none;
+
+}
+.selete{
+    width:fit-content;
+    background: transparent;
+}
+
+
+@media (max-width:990px) {
+    .basicnavbarnav{
+        justify-content:flex-start;
+        padding-left: 20px!important;
+        padding-bottom: 20px;
+    
+    }
+    .navlink{
+        padding: 10px 0;
+    }
+}
