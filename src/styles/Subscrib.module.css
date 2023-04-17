@@ -1,0 +1,22 @@
+.subscribWrp {
+    background: #9a8479;
+    color: #fff !important;
+    /* background: #C10230; */
+}
+
+.logo2 {
+    width: 190px;
+    height: 100px;
+}
+
+.input {
+    width: 50%;
+    margin: auto;
+    background: #fff;
+    color: black;
+    padding: 5px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
