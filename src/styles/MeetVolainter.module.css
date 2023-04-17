@@ -1,0 +1,51 @@
+.causesWrp {
+    background: #f6f6f6;
+}
+
+
+.cardContainer {
+    margin: 0 2px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.imageWrp {
+    height: 45%;
+    width: 100%;
+}
+
+.readmore {
+    color: #C10230;
+    text-decoration: none;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    grid-gap: 25px;
+    flex-direction: column;
+
+}
+
+.icons {
+    color: #C10230;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.sCionsWrp {
+    background: #C10230 !important;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sCions {
+    color: #fff;
+    font-size: 20px;
+}

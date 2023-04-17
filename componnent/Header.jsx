@@ -1,8 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Container, Nav, Navbar } from "react-bootstrap";
-import { AiFillFacebook, AiFillInstagram, AiFillLinkedin, AiFillYoutube, AiOutlineMail } from "react-icons/ai";
-import { BsTelephone } from "react-icons/bs";
+import { AiFillFacebook, AiFillInstagram, AiFillLinkedin, AiFillYoutube, AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 import logo from "../public/logo.png";
 import styles from '../src/styles/Header.module.css';
 // import {HiOutlineBars3}from "react-icons/hi"
@@ -14,8 +13,8 @@ export default function header() {
         <Container>
           <div className={` pt-2 pb-2 ${styles.topheaderWrp}`}>
             <div className={`d-flex gap-3`}>
-              <div className={`d-flex align-items-center gap-2`}> <AiOutlineMail className={`${styles.topberIcons}`} /> Example@gmail.com</div>
-              <div className={`d-flex align-items-center gap-2`}> <BsTelephone className={`${styles.topberIcons}`} /> 019876544353</div>
+              <div className={`d-flex align-items-center gap-2`}> <AiOutlineMail className={`${styles.topberIcons}`} /> Info@actitude.com</div>
+              <div className={`d-flex align-items-center gap-2`}> <AiOutlinePhone className={`${styles.topberIcons}`} /> +45 35851000</div>
             </div>
             <div className={`d-flex gap-3`}>
               <AiFillFacebook className={`${styles.topberIcons}`} />

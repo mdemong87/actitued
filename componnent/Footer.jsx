@@ -1,32 +1,94 @@
-import React from 'react'
-import style from '../src/styles/Footer.module.css'
-import FooterLogo from '../public/logo.png'
 import Image from 'next/image'
 import { Container } from 'react-bootstrap'
+import { AiFillFacebook, AiFillInstagram, AiFillLinkedin, AiFillYoutube, AiOutlineGlobal, AiOutlineMail, AiOutlinePhone } from "react-icons/ai"
+import { BiLocationPlus } from "react-icons/bi"
+import { TiTick } from "react-icons/ti"
+import logo from "../public/logo.png"
+import styles from '../src/styles/Footer.module.css'
 const Footer = () => {
   return (
     <>
-      <footer className={style.footer}>
-         <Container>
-         <div className={style.container}>
-              <div>
-                  <h3 className={style.footerHeading}>About</h3>
-                  <p className={style.footerDescription}>Our vision is to help activateand support people to help make the world a better place. <strong>Our mission is to turn the positive intention to help into practical action</strong>.Actitude is a non-profit organization founded in Copenhagen, Denmark in 2018.</p>
-                  <div className={style.footerInfo}>
-                      <div className={style.fContact}>
-                          <a href="">Info@actitude.com</a>|
-                          <a href="">www.actitude.com</a>|
-                          <a href="">+45 35851000</a>
-                      </div>
-                      <p className={style.footerAddress}>Actitude |Rosenørns Alle 44, st. tv., 1926 Frederiksberg, Denmark</p>
-                  </div>
-                  <div className={style.footerLogo}>
-                      <Image src={FooterLogo} />
-                  </div>
+      <footer className={styles.footer}>
+        <Container>
+          <div className={`row`}>
+            <div className={`col-sm-12 col-md-4 d-flex flex-column justfy-content-center`}>
+              <Image className={`w-100 h-100`} src={logo}></Image>
+
+            </div>
+            <div className={`col-sm-12 col-md-4 d-flex justify-content-center flex-column`}>
+              <h4>Recent campaign</h4>
+              <div className={`text-muted ${styles.powerfullitemlist}`}>
+                <div className={`${styles.itemsLink}`}>
+                  <TiTick className={`${styles.tickIcons}`} />
+                  <span>Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+                </div>
+
+
+                <div className={`${styles.itemsLink}`}>
+                  <TiTick className={`${styles.tickIcons}`} />
+                  <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+
+
+                <div className={`${styles.itemsLink}`}>
+                  <TiTick className={`${styles.tickIcons}`} />
+                  <span>Lorem ipsum amet consectetur adipisicing elit.</span>
+                </div>
+
+                <div className={`${styles.itemsLink}`}>
+                  <TiTick className={`${styles.tickIcons}`} />
+                  <span>Lorem ipsum amet consectetur adipisicing elit.</span>
+                </div>
+
               </div>
+            </div>
+            <div className={`col-sm-12 col-md-4 d-flex justify-content-center flex-column`}>
+              <h4>Charify Location</h4>
+              <div className={`text-muted ${styles.powerfullitemlist}`}>
+                <div className={`${styles.itemsLink}`}>
+                  <AiOutlineMail className={`${styles.tickIcons}`} />
+                  <span>Info@actitude.com  </span>
+                </div>
+
+                <div className={`${styles.itemsLink}`}>
+                  <AiOutlinePhone className={`${styles.tickIcons}`} />
+                  <span>+45 35851000</span>
+                </div>
+
+                <div className={`${styles.itemsLink}`}>
+                  <AiOutlineGlobal className={`${styles.tickIcons}`} />
+                  <span>www.actitude.com</span>
+                </div>
+
+
+                <div className={`${styles.itemsLink}`}>
+                  <BiLocationPlus className={`${styles.tickIcons}`} />
+                  <span>Rosenørns Alle 44, st. tv., 1926 Frederiksberg, Denmark</span>
+                </div>
+
+
+              </div>
+            </div>
           </div>
-         </Container>
-      </footer>
+        </Container>
+
+        <div className={`${styles.bottomFooter}`}>
+          <Container>
+            <div className={`d-flex gap-3 w-100 ${styles.bottomFooterWrp}`}>
+              <div>
+                <p className={`text-muted`}>&copy;CopyRight All Right Reserve Actitude.com</p>
+              </div>
+              <div>
+                <AiFillFacebook className={`${styles.topberIcons}`} />
+                <AiFillInstagram className={`${styles.topberIcons}`} />
+                <AiFillLinkedin className={`${styles.topberIcons}`} />
+                <AiFillYoutube className={`${styles.topberIcons}`} />
+              </div>
+
+            </div>
+          </Container>
+        </div>
+      </footer >
     </>
   )
 }

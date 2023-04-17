@@ -1,0 +1,25 @@
+.causesWrp {
+    background: #f6f6f6;
+}
+
+/* .card {
+    border: 1px solid black;
+} */
+
+.cardContainer {
+    margin: 0 2px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.imageWrp {
+    height: 45%;
+    width: 100%;
+}
+
+.readmore {
+    color: #C10230;
+    text-decoration: none;
+}

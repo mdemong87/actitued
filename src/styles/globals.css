@@ -80,9 +80,24 @@ body {
   background: #fff;
 }
 
-/* .corporateWrper {
-  background: #ddd;
-} */
+.swiper-button-next {
+  background: #C10230;
+  color: #fff !important;
+  font-size: 50px !important;
+  border-radius: 5px;
+}
+
+.swiper-button-prev {
+  background: #C10230 !important;
+  color: #fff !important;
+  font-size: 20px !important;
+  border-radius: 5px;
+  padding: 0px 10px !important;
+}
+
+.swiper-pagination-bullet-active {
+  color: #C10230 !important;
+}
 
 .readMorebtn {
   background: #C10230;

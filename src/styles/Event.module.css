@@ -1,0 +1,17 @@
+.eventWrp {
+    background: #fff;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    grid-gap: 25px;
+    flex-direction: column;
+
+}
+
+.icons {
+    color: #C10230;
+    font-size: 30px;
+    margin-right: 10px;
+}

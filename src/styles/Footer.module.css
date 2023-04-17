@@ -1,44 +1,38 @@
-.container{
-    max-width: 1400px;
-    display: block;
-    margin:0 auto ; 
-}
-.footer{
-    padding: 50px 0;
-    background: #f6f6f6!important;
-}
-.footerHeading{
-    font-size: 22px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-.footerInfo{
-    text-align: center;
-}
-.footerDescription{
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.7rem;
-}
-.fContact{
-    margin: 30px 0 15px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-}
-.fContact>a{
-text-decoration: underline;
-color: #0563C1;
-font-size: 18px;
-font-weight: 400;
-}
-.footerAddress{
-    font-size: 18px;
-    font-weight: 400;
+.footer {
+    padding-top: 50px;
+    background: #f6f6f6 !important;
     color: #000;
 }
-.footerLogo{
-    text-align: center;
-    margin-top: 50px;
+
+.topberIcons {
+    font-size: 28px;
+    color: #C10230;
+    cursor: pointer;
+}
+
+.powerfullitemlist {
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.tickIcons {
+    color: #C10230 !important;
+    font-size: 25px;
+    margin-right: 5px;
+
+}
+
+.itemsLink {
+    padding: 2px 0;
+}
+
+.bottomFooter {
+    background: #f6f6f6;
+    padding: 10px 0;
+
+}
+
+.bottomFooterWrp {
+    justify-content: space-between;
 }
