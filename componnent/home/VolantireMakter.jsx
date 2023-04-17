@@ -15,19 +15,19 @@ export default function VolantireMakter() {
                     <div className={`col-sm-12 col-md-4 text-center d-flex flex-column align-items-center`}>
                         <BiDonateHeart className={`${styles.icons}`} />
                         <h3>Make Donation</h3>
-                        <p className={`w-50 m-auto`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, totam!</p>
+                        <p className={`w-75 m-auto text-muted`}>"Your donation can help us make a difference in the lives of those in need. Join us in creating positive change today."</p>
                         <Link className={`${styles.readMore}`} href="/">Read More</Link>
                     </div>
                     <div className={`col-sm-12 col-md-4 text-center d-flex flex-column align-items-center`}>
                         <HiOutlineEmojiHappy className={`${styles.icons}`} />
                         <h3>Become a patner</h3>
-                        <p className={`w-75 m-auto`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, totam!</p>
+                        <p className={`w-75 m-auto text-muted`}>"Join us for global impact, partner with our non-profit organization today."</p>
                         <Link className={`${styles.readMore}`} href="/">Read More</Link>
                     </div>
                     <div className={`col-sm-12 col-md-4 text-center d-flex flex-column align-items-center`}>
                         <FiUsers className={`${styles.icons}`} />
                         <h3>Become a Volunler</h3>
-                        <p className={`w-75 m-auto`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, totam!</p>
+                        <p className={`w-75 m-auto text-muted`}>"Volunteering at a non-profit - helping others while gaining personal fulfillment and making a positive impact."</p>
                         <Link className={`${styles.readMore}`} href="/">Read More</Link>
                     </div>
                 </div>

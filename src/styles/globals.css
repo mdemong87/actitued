@@ -1,3 +1,7 @@
+@import url('https://fonts.cdnfonts.com/css/century-gothic');
+@import url('https://fonts.cdnfonts.com/css/gotham');
+
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -78,6 +82,31 @@ body {
 body {
   color: black;
   background: #fff;
+  font-family: 'Gotham Light', sans-serif !important;
+}
+
+h1 {
+  font-family: 'Century Gothic', sans-serif;
+}
+
+h2 {
+  font-family: 'Century Gothic', sans-serif;
+}
+
+h3 {
+  font-family: 'Century Gothic', sans-serif;
+}
+
+h4 {
+  font-family: 'Century Gothic', sans-serif;
+}
+
+h5 {
+  font-family: 'Century Gothic', sans-serif;
+}
+
+h6 {
+  font-family: 'Century Gothic', sans-serif;
 }
 
 .swiper-button-next {

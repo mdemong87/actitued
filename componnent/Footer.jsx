@@ -20,7 +20,7 @@ const Footer = () => {
               <div className={`text-muted ${styles.powerfullitemlist}`}>
                 <div className={`${styles.itemsLink}`}>
                   <TiTick className={`${styles.tickIcons}`} />
-                  <span>Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+                  <span>Lorem ipsum dolor sit amet consectetur.</span>
                 </div>
 
 
@@ -32,12 +32,12 @@ const Footer = () => {
 
                 <div className={`${styles.itemsLink}`}>
                   <TiTick className={`${styles.tickIcons}`} />
-                  <span>Lorem ipsum amet consectetur adipisicing elit.</span>
+                  <span>Lorem ipsum amet consectetur elit.</span>
                 </div>
 
                 <div className={`${styles.itemsLink}`}>
                   <TiTick className={`${styles.tickIcons}`} />
-                  <span>Lorem ipsum amet consectetur adipisicing elit.</span>
+                  <span>Lorem ipsum amet adipisicing elit.</span>
                 </div>
 
               </div>
