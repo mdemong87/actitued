@@ -36,11 +36,11 @@ export default function header() {
           <Navbar.Collapse id="basic-navbar-nav" className={`${styles.basicnavbarnav}`}>
             <Nav className={`${styles.navgroundlink}`} >
               <Link className={`text-muted ${styles.navlink}`} href="/">Home</Link>
-              <Link className={`text-muted ${styles.navlink}`} href="/About">About</Link>
-              <Link className={`text-muted ${styles.navlink}`} href="/Mission">Mission</Link>
-              <Link className={`text-muted ${styles.navlink}`} href="/corporate">Corporate</Link>
-              <Link className={`text-muted ${styles.navlink}`} href="/future">Future</Link>
-              <Link className={`text-muted ${styles.navlink}`} href="/individual">Individual</Link>
+              <Link className={`text-muted ${styles.navlink}`} href="/">About</Link>
+              <Link className={`text-muted ${styles.navlink}`} href="/">Mission</Link>
+              <Link className={`text-muted ${styles.navlink}`} href="/">Corporate</Link>
+              <Link className={`text-muted ${styles.navlink}`} href="/">Future</Link>
+              <Link className={`text-muted ${styles.navlink}`} href="/">Individual</Link>
               <select className={` text-muted border ${styles.selete}`} name="languess" id="">
                 <option value="English">English</option>
                 <option value="Danish">Danish</option>

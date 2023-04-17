@@ -1,12 +1,13 @@
-import React from 'react'
-import Header from './Header'
 import Footer from './Footer'
-export default function Layout({children}) {
+import Header from './Header'
+import Subscrib from './Subscrib'
+export default function Layout({ children }) {
   return (
     <div>
-        <Header/>
-        {children}
-        <Footer/>
+      <Header />
+      {children}
+      <Subscrib />
+      <Footer />
     </div>
   )
 }
