@@ -7,6 +7,7 @@ import { BiLocationPlus } from "react-icons/bi";
 import { CiCalendarDate } from "react-icons/ci";
 import { A11y, Navigation, Pagination, Scrollbar } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import event from "../../public/event.jpg";
 import slider from "../../public/image-section.jpg";
 
 // Import Swiper styles
@@ -35,11 +36,11 @@ export default function Event() {
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}
                 >
-                    <SwiperSlide className={`${styles.slider}`}>
-                        <div className={`w-50`}>
-                            <Image src={slider}></Image>
+                    <SwiperSlide className={`border ${styles.slider}`}>
+                        <div className={`${styles.eventImageWrp}`}>
+                            <Image className={`w-100 h-100`} src={slider}></Image>
                         </div>
-                        <div className={`border p-3`}>
+                        <div className={`p-3`}>
                             <h3>Event Header</h3>
                             <div className={`d-flex align-items-center mt-3`}><CiCalendarDate className={`${styles.icons}`} />29/10/2023 to 01/11/2023</div>
                             <div className={`d-flex align-items-center mt-2 mb-2`}><BiLocationPlus className={`${styles.icons}`} />New York,USA</div>
@@ -47,11 +48,11 @@ export default function Event() {
                             <button className={`readMorebtn`}>Read More</button>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className={`${styles.slider}`}>
-                        <div className={`w-50`}>
-                            <Image src={slider}></Image>
+                    <SwiperSlide className={`border ${styles.slider}`}>
+                        <div className={`${styles.eventImageWrp}`}>
+                            <Image className={`w-100 h-100`} src={event}></Image>
                         </div>
-                        <div className={`border p-3`}>
+                        <div className={`p-3`}>
                             <h3>Event Header</h3>
                             <div className={`d-flex align-items-center mt-3`}><CiCalendarDate className={`${styles.icons}`} />29/10/2023 to 01/11/2023</div>
                             <div className={`d-flex align-items-center mt-2 mb-2`}><BiLocationPlus className={`${styles.icons}`} />New York,USA</div>

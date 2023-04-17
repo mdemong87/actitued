@@ -3,7 +3,6 @@ import Link from "next/link";
 import { Container } from "react-bootstrap";
 import { A11y, Navigation, Pagination, Scrollbar } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import slider from "../../public/image-section.jpg";
 import styles from "../../src/styles/MeetVolainter.module.css";
 // Import Swiper styles
 import { AiFillFacebook, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
@@ -11,6 +10,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+
+//image import 
+import four from "../../public/four.jpg";
+import one from "../../public/one.jpg";
+import three from "../../public/three.jpg";
+import two from "../../public/two.jpg";
+
 
 export default function MeetVolainter() {
     return (
@@ -33,7 +39,7 @@ export default function MeetVolainter() {
                 >
                     <SwiperSlide className={`${styles.slider}`}>
                         <div className={`w-100`}>
-                            <Image className={`w-100 h-100`} src={slider}></Image>
+                            <Image className={`w-100 h-100`} src={three}></Image>
                         </div>
                         <div className={`d-flex justify-content-center align-items-center gap-3`}>
                             <Link className={`${styles.sCionsWrp}`} href={`/`}><AiFillFacebook className={`${styles.sCions}`} /></Link>
@@ -43,7 +49,7 @@ export default function MeetVolainter() {
                     </SwiperSlide>
                     <SwiperSlide className={`${styles.slider}`}>
                         <div className={`w-100`}>
-                            <Image className={`w-100 h-100`} src={slider}></Image>
+                            <Image className={`w-100 h-100`} src={one}></Image>
                         </div>
                         <div className={`d-flex justify-content-center align-items-center gap-3`}>
                             <Link className={`${styles.sCionsWrp}`} href={`/`}><AiFillFacebook className={`${styles.sCions}`} /></Link>
@@ -53,7 +59,7 @@ export default function MeetVolainter() {
                     </SwiperSlide>
                     <SwiperSlide className={`${styles.slider}`}>
                         <div className={`w-100`}>
-                            <Image className={`w-100 h-100`} src={slider}></Image>
+                            <Image className={`w-100 h-100`} src={two}></Image>
                         </div>
                         <div className={`d-flex justify-content-center align-items-center gap-3`}>
                             <Link className={`${styles.sCionsWrp}`} href={`/`}><AiFillFacebook className={`${styles.sCions}`} /></Link>
@@ -63,7 +69,7 @@ export default function MeetVolainter() {
                     </SwiperSlide>
                     <SwiperSlide className={`border pb-3 ${styles.slider}`}>
                         <div className={`w-100`}>
-                            <Image className={`w-100 h-100`} src={slider}></Image>
+                            <Image className={`w-100 h-100`} src={three}></Image>
                         </div>
                         <div className={`d-flex justify-content-center align-items-center gap-3`}>
                             <Link className={`${styles.sCionsWrp}`} href={`/`}><AiFillFacebook className={`${styles.sCions}`} /></Link>
@@ -73,7 +79,7 @@ export default function MeetVolainter() {
                     </SwiperSlide>
                     <SwiperSlide className={`${styles.slider}`}>
                         <div className={`w-100`}>
-                            <Image className={`w-100 h-100`} src={slider}></Image>
+                            <Image className={`w-100 h-100`} src={four}></Image>
                         </div>
                         <div className={`d-flex justify-content-center align-items-center gap-3`}>
                             <Link className={`${styles.sCionsWrp}`} href={`/`}><AiFillFacebook className={`${styles.sCions}`} /></Link>
@@ -83,7 +89,7 @@ export default function MeetVolainter() {
                     </SwiperSlide>
                     <SwiperSlide className={`${styles.slider}`}>
                         <div className={`w-100`}>
-                            <Image className={`w-100 h-100`} src={slider}></Image>
+                            <Image className={`w-100 h-100`} src={one}></Image>
                         </div>
                         <div className={`d-flex justify-content-center align-items-center gap-3`}>
                             <Link className={`${styles.sCionsWrp}`} href={`/`}><AiFillFacebook className={`${styles.sCions}`} /></Link>
@@ -93,7 +99,7 @@ export default function MeetVolainter() {
                     </SwiperSlide>
                     <SwiperSlide className={`${styles.slider}`}>
                         <div className={`w-100`}>
-                            <Image className={`w-100 h-100`} src={slider}></Image>
+                            <Image className={`w-100 h-100`} src={two}></Image>
                         </div>
                         <div className={`d-flex justify-content-center align-items-center gap-3`}>
                             <Link className={`${styles.sCionsWrp}`} href={`/`}><AiFillFacebook className={`${styles.sCions}`} /></Link>
@@ -103,7 +109,7 @@ export default function MeetVolainter() {
                     </SwiperSlide>
                     <SwiperSlide className={`${styles.slider}`}>
                         <div className={`w-100`}>
-                            <Image className={`w-100 h-100`} src={slider}></Image>
+                            <Image className={`w-100 h-100`} src={three}></Image>
                         </div>
                         <div className={`d-flex justify-content-center align-items-center gap-3`}>
                             <Link className={`${styles.sCionsWrp}`} href={`/`}><AiFillFacebook className={`${styles.sCions}`} /></Link>
@@ -113,7 +119,7 @@ export default function MeetVolainter() {
                     </SwiperSlide>
                     <SwiperSlide className={`${styles.slider}`}>
                         <div className={`w-100`}>
-                            <Image className={`w-100 h-100`} src={slider}></Image>
+                            <Image className={`w-100 h-100`} src={four}></Image>
                         </div>
                         <div className={`d-flex justify-content-center align-items-center gap-3`}>
                             <Link className={`${styles.sCionsWrp}`} href={`/`}><AiFillFacebook className={`${styles.sCions}`} /></Link>
